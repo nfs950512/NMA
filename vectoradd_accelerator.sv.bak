@@ -1,0 +1,27 @@
+module vectoradd_accelerator(
+	input clk,
+	input reset
+);
+
+logic [31:0] to_sw_data_export, to_hw_data_export;
+logic [1:0] to_hw_sig_export, to_sw_sig_export;
+
+vectadd processor (
+	.clk_clk(clk),           
+	.reset_reset_n(reset),    
+	.to_hw_sig_export(to_hw_sig_export),  
+	.to_sw_sig_export(to_sw_sig_export),  
+	.to_sw_data_export(to_sw_data_export), 
+	.to_hw_data_export(to_hw_data_export) 
+);
+
+ctrl control (
+	.clk,
+	.reset,
+	.to_hw_data_export(to_hw_data_export),
+	.to_hw_sig_export(to_hw_sig_export),
+	.to_sw_data_export(to_sw_data_export),
+	.to_sw_sig_export(to_sw_sig_export)
+);
+
+endmodule : vectoradd_accelerator

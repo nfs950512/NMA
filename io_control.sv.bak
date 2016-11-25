@@ -1,0 +1,10 @@
+module IO_control
+(
+	input clk,
+	input reset,
+	input [31:0] to_hw_data_export,
+	input [1:0] to_hw_sig_export,
+	output [31:0] to_sw_data_export,
+	output [1:0] to_sw_sig_export
+	
+);

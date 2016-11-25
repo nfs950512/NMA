@@ -1,0 +1,419 @@
+!SESSION 2016-11-24 17:23:07.350 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-24 17:24:41.815
+!MESSAGE Indexed 'vectadd_bsp' (78 sources, 57 headers) in 0.75 sec: 920 declarations; 2,189 references; 113 unresolved inclusions; 5 syntax errors; 193 unresolved names (5.84%)
+
+!ENTRY org.eclipse.cdt.core 1 0 2016-11-24 17:24:43.944
+!MESSAGE Indexed 'vectadd' (0 sources, 13 headers) in 0.02 sec: 0 declarations; 0 references; 13 unresolved inclusions; 0 syntax errors; 0 unresolved names (0.00%)
+!SESSION 2016-11-24 17:27:34.848 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 17:29:17.079
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21038]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 17:29:20.030
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x21038] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 17:29:20.082
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21038 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 17:29:23.371
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21038, /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 17:29:23.376
+!MESSAGE Downloading ELF Process failed
+!SESSION 2016-11-24 21:39:26.274 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 21:49:25.659
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21038]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 21:49:28.605
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x21038] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 21:49:28.669
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21038 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 21:49:31.949
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21038, /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 21:49:31.951
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY org.eclipse.cdt.launch 4 150 2016-11-24 21:51:26.517
+!MESSAGE Error starting process.
+!STACK 0
+java.io.IOException: Cannot run program "E:\UIUC\Senior\Resrarch\vectadd\software\vectadd\vectadd.elf": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:370)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SUBENTRY 1 org.eclipse.cdt.launch 4 150 2016-11-24 21:51:26.517
+!MESSAGE Cannot run program "E:\UIUC\Senior\Resrarch\vectadd\software\vectadd\vectadd.elf": Launching failed
+!STACK 0
+java.io.IOException: Cannot run program "E:\UIUC\Senior\Resrarch\vectadd\software\vectadd\vectadd.elf": Launching failed
+	at org.eclipse.cdt.utils.spawner.Spawner.exec(Spawner.java:347)
+	at org.eclipse.cdt.utils.spawner.Spawner.<init>(Spawner.java:89)
+	at org.eclipse.cdt.utils.spawner.ProcessFactory.exec(ProcessFactory.java:89)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.exec(LocalCDILaunchDelegate.java:370)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.runLocalApplication(LocalCDILaunchDelegate.java:96)
+	at org.eclipse.cdt.launch.internal.LocalCDILaunchDelegate.launch(LocalCDILaunchDelegate.java:70)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+!SESSION 2016-11-24 21:54:32.145 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:05:25.318
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21038]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:05:28.226
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x21038] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:05:28.285
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21038 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:05:31.558
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21038, /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:05:31.562
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:05:40.155
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21038]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:05:43.128
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x21038] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:05:43.182
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21038 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:05:46.493
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21038, /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:05:46.495
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:06:14.931
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21038]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:06:17.887
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x21038] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:06:17.941
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21038 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:06:21.256
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21038, /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:06:21.258
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:06:31.223
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21038]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:06:34.208
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x21038] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:06:34.259
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21038 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:06:37.666
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21038, /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:06:37.668
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:06:48.477
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21038]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:06:51.397
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x21038] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:06:51.452
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21038 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:06:54.757
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21038, /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:06:54.759
+!MESSAGE Downloading ELF Process failed
+!SESSION 2016-11-24 22:13:44.709 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:14:31.051
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21038]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:14:33.987
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x21038] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:14:34.039
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21038 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:14:37.375
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21038, /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:14:37.379
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:15:50.169
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --accept-bad-sysid --sidp=0x21038]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:15:53.195
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --accept-bad-sysid, --sidp=0x21038] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:15:53.253
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --accept-bad-sysid --sidp=0x21038 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:15:56.534
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --go, --accept-bad-sysid, --sidp=0x21038, /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-24 22:15:56.536
+!MESSAGE Downloading ELF Process failed
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:32:04.986
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-24 22:32:07.273
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+!SESSION 2016-11-25 13:44:03.334 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 13:54:26.065
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-25 13:54:29.899
+!MESSAGE Failed Executing: [nios2-download, '--cable=USB-Blaster on localhost [USB-0]', --device=1, --instance=0, --stop, --sidp=0x21038, --id=0x0, --timestamp=1480046161] return code: 4, 'other error'
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 13:54:29.960
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 13:56:39.551
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 13:56:41.707
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:05:55.048
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:05:57.335
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:06:42.868
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:06:45.181
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:07:14.439
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:07:16.778
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:10:36.344
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:10:38.487
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:11:28.239
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:11:30.513
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:12:05.156
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:12:07.496
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:14:13.122
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:14:15.600
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-25 14:24:37.312
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 4 0 2016-11-25 14:24:37.315
+!MESSAGE Unable to validate connection settings.
+!STACK 0
+java.lang.Exception: Connected system ID hash not found on target at expected base address.
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.assertTrue(SystemConsoleConnectionModel.java:645)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateSystemId(SystemConsoleConnectionModel.java:589)
+	at com.altera.embeddedsw.flash.model.internal.SystemConsoleConnectionModel.validateConnectionSettings(SystemConsoleConnectionModel.java:511)
+	at com.altera.sbtgui.launch.hardware.AbstractNios2CLaunchDelegate.launch(AbstractNios2CLaunchDelegate.java:115)
+	at com.altera.sbtgui.launch.hardware.Nios2HardwareLaunchDelegate.launch(Nios2HardwareLaunchDelegate.java:98)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:854)
+	at org.eclipse.debug.internal.core.LaunchConfiguration.launch(LaunchConfiguration.java:703)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin.buildAndLaunch(DebugUIPlugin.java:937)
+	at org.eclipse.debug.internal.ui.DebugUIPlugin$8.run(DebugUIPlugin.java:1141)
+	at org.eclipse.core.internal.jobs.Worker.run(Worker.java:54)
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:26:35.647
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:26:37.990
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:28:28.966
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:28:31.168
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:29:07.802
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:29:09.986
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:29:38.646
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:29:40.781
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:33:43.589
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:33:45.864
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:37:11.230
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:37:13.544
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:51:32.225
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:51:34.608
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+!SESSION 2016-11-25 14:56:56.996 -----------------------------------------------
+eclipse.buildId=M20120208-0800
+java.version=1.6.0_23
+java.vendor=Sun Microsystems Inc.
+BootLoader constants: OS=win32, ARCH=x86, WS=win32, NL=en_US
+Framework arguments:  -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+Command-line arguments:  -os win32 -ws win32 -arch x86 -product org.eclipse.epp.package.cpp.product -perspective com.altera.sbtgui.ui.cPerspective
+
+!ENTRY org.eclipse.core.resources 2 10035 2016-11-25 14:56:59.427
+!MESSAGE The workspace exited with unsaved changes in the previous session; refreshing workspace to recover changes.
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:57:26.110
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 14:57:28.504
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:04:59.053
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:05:01.312
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:07:01.189
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:07:03.470
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:09:48.018
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:09:50.186
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:11:52.745
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:11:54.989
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:14:57.909
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:15:00.225
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:15:21.090
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:15:23.290
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:15:36.949
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:15:39.237
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:21:53.851
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:21:56.030
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:27:16.613
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --stop --sidp=0x21038 --id=0x0 --timestamp=1480046161]
+
+!ENTRY com.altera.sbtgui.launch 1 0 2016-11-25 15:27:18.948
+!MESSAGE Executing: [C:/altera/13.0sp1/quartus\bin\cygwin\bin\bash.exe, -c, nios2-download '--cable=USB-Blaster on localhost [USB-0]' --device=1 --instance=0 --go --sidp=0x21038 --id=0x0 --timestamp=1480046161 /cygdrive/e/UIUC/Senior/Resrarch/vectadd/software/vectadd/vectadd.elf]

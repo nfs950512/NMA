@@ -1,0 +1,89 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <stdint.h>
+
+#define to_hw_port (volatile char*) 0x00201030 // actual address here
+#define to_hw_sig (volatile char*) 0x00201010 // actual address here
+#define to_sw_sig (char*) 0x00201000 // actual address here
+
+
+
+void vectorAdd(short int *a, short int *b, short int *s, int len) {
+	// Transmit length
+	printf("\nTransmitting length...\n");
+	*to_hw_sig = 1;
+	*to_hw_port = len;
+	while (*to_sw_sig != 1); //READ_LENGTH
+	*to_hw_sig = 2;
+	while (*to_sw_sig != 0); //ACK_LENGTH
+
+	printf("\nTransmitting Base Address A...\n");
+	*to_hw_sig = 1;
+	*to_hw_port = a;
+	while (*to_sw_sig != 1); // READ_ADDR_A
+	*to_hw_sig = 2;
+	while (*to_sw_sig != 0); // ACK_ADDR_A
+
+	printf("\nTransmitting Base Address B...\n");
+	*to_hw_sig = 1;
+	*to_hw_port = b;
+	while (*to_sw_sig != 1); // READ_ADDR_B
+	*to_hw_sig = 2;
+	while (*to_sw_sig != 0); // ACK_ADDR_B
+
+	printf("\nTransmitting Base Address S...\n");
+	*to_hw_sig = 1;
+	*to_hw_port = s;
+	while (*to_sw_sig != 1); // READ_ADDR_S
+	*to_hw_sig = 2;
+	while (*to_sw_sig != 0); // ACK_ADDR_S
+
+	*to_hw_sig = 1;
+
+	// VectAdd in ACC...
+
+	while (*to_sw_sig != 1); // Wait until hardware finishes work
+	*to_hw_sig = 2;
+	while (*to_sw_sig != 0); // ACK_DONE
+	*to_hw_sig = 1;
+
+	return;
+}
+
+
+int main() {
+	printf("Near-Memory Accelerator for Vector Addition\n");
+	short int *a;
+	short int *b;
+	short int *s;
+
+	int len = 8;
+
+	a = (short int *)malloc(sizeof(short int) * len);
+	b = (short int *)malloc(sizeof(short int) * len);
+	s = (short int *)malloc(sizeof(short int) * len);
+
+	int i;
+
+	for (i = 0; i < len; ++i) {
+		a[i] = 2;
+	}
+
+	for (i = 0; i < len; ++i) {
+		b[i] = 4;
+	}
+
+	vectorAdd(a, b, s, len);
+	/*
+	for (i = 0; i < len; ++i) {
+		printf("s[t] = %d\n", s[i]);
+	}
+	*/
+	return 0;
+}
+
+/*
+Couldn't compute FAST_CWD pointer
+ */
+
+

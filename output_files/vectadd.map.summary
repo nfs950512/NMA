@@ -1,0 +1,14 @@
+Analysis & Synthesis Status : Successful - Fri Nov 25 15:26:07 2016
+Quartus II 64-Bit Version : 13.0.1 Build 232 06/12/2013 SP 1 SJ Full Version
+Revision Name : vectadd
+Top-level Entity Name : vectoradd_accelerator
+Family : Cyclone II
+Total logic elements : 2,187
+    Total combinational functions : 1,870
+    Dedicated logic registers : 1,170
+Total registers : 1170
+Total pins : 32
+Total virtual pins : 0
+Total memory bits : 411,264
+Embedded Multiplier 9-bit elements : 0
+Total PLLs : 0

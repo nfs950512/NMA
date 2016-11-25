@@ -1,0 +1,29 @@
+
+State Machine - |vectoradd_accelerator|ACC_Control:ctrl0|state
+Name state.SEND_DONE state.WRITE_S state.ADDER state.STB state.STA_RDB state.READ_A state.ACK_ADDR_S state.READ_ADDR_S state.ACK_ADDR_B state.READ_ADDR_B state.ACK_ADDR_A state.READ_ADDR_A state.ACK_LENGTH state.READ_LENGTH state.RESET state.IDLE state.ACK_DONE 
+state.IDLE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 
+state.RESET 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 0 
+state.READ_LENGTH 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 1 0 
+state.ACK_LENGTH 0 0 0 0 0 0 0 0 0 0 0 0 1 0 0 1 0 
+state.READ_ADDR_A 0 0 0 0 0 0 0 0 0 0 0 1 0 0 0 1 0 
+state.ACK_ADDR_A 0 0 0 0 0 0 0 0 0 0 1 0 0 0 0 1 0 
+state.READ_ADDR_B 0 0 0 0 0 0 0 0 0 1 0 0 0 0 0 1 0 
+state.ACK_ADDR_B 0 0 0 0 0 0 0 0 1 0 0 0 0 0 0 1 0 
+state.READ_ADDR_S 0 0 0 0 0 0 0 1 0 0 0 0 0 0 0 1 0 
+state.ACK_ADDR_S 0 0 0 0 0 0 1 0 0 0 0 0 0 0 0 1 0 
+state.READ_A 0 0 0 0 0 1 0 0 0 0 0 0 0 0 0 1 0 
+state.STA_RDB 0 0 0 0 1 0 0 0 0 0 0 0 0 0 0 1 0 
+state.STB 0 0 0 1 0 0 0 0 0 0 0 0 0 0 0 1 0 
+state.ADDER 0 0 1 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+state.WRITE_S 0 1 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+state.SEND_DONE 1 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 0 
+state.ACK_DONE 0 0 0 0 0 0 0 0 0 0 0 0 0 0 0 1 1 
+
+State Machine - |vectoradd_accelerator|vectadd:u0|vectadd_nios2_qsys_0:nios2_qsys_0|vectadd_nios2_qsys_0_nios2_oci:the_vectadd_nios2_qsys_0_nios2_oci|vectadd_nios2_qsys_0_jtag_debug_module_wrapper:the_vectadd_nios2_qsys_0_jtag_debug_module_wrapper|vectadd_nios2_qsys_0_jtag_debug_module_tck:the_vectadd_nios2_qsys_0_jtag_debug_module_tck|DRsize
+Name DRsize.101 DRsize.100 DRsize.011 DRsize.010 DRsize.001 DRsize.000 
+DRsize.000 0 0 0 0 0 0 
+DRsize.001 0 0 0 0 1 1 
+DRsize.010 0 0 0 1 0 1 
+DRsize.011 0 0 1 0 0 1 
+DRsize.100 0 1 0 0 0 1 
+DRsize.101 1 0 0 0 0 1 
